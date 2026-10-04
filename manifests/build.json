@@ -1,0 +1,31 @@
+{
+  "wheel": "amhslab-0.1.2-cp311-cp311-manylinux_2_34_x86_64.whl",
+  "wheel_sha256": "9f813d56636149fb4625f30e9e2876d7f21e9b0952f3f899f7fa8341506d5af4",
+  "wheel_bytes": 8985125,
+  "wheel_members": 127,
+  "reference_platform": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "wheel_tag": "cp311-cp311-manylinux_2_34_x86_64",
+    "libc_floor": "glibc 2.34",
+    "build_image": "quay.io/pypa/manylinux_2_34_x86_64@sha256:0b4acc5b3c4c797bb9a6286c4d15039962f61ee0c5426753afd5cbe45baebfc4",
+    "python_patch": "3.11.16"
+  },
+  "build_requires": {
+    "Cython": "3.3.0",
+    "setuptools": "84.0.0",
+    "wheel": "0.48.0",
+    "build": "1.6.1",
+    "auditwheel": "6.8.2"
+  },
+  "runtime_pins": {
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.5",
+    "matplotlib": "3.10.9",
+    "networkx": "3.6.1",
+    "simpy": "4.1.2",
+    "openpyxl": "3.1.5",
+    "dearpygui": "2.3.1"
+  }
+}

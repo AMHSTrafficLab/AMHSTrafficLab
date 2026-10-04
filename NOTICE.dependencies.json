@@ -1,0 +1,454 @@
+{
+  "scope": "Distribution-level inventory from validated runtime; not a complete SBOM of all libraries embedded by dependency maintainers. Full shipped notices are preserved in NOTICE.third-party-licenses.txt.",
+  "wheel_sha256": "9f813d56636149fb4625f30e9e2876d7f21e9b0952f3f899f7fa8341506d5af4",
+  "dependencies": [
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "project_urls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "contourpy-1.3.3.dist-info/LICENSE",
+          "sha256": "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e"
+        }
+      ],
+      "license_summary": "BSD-3-Clause",
+      "upstream_release": "https://pypi.org/project/contourpy/1.3.3/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "project_urls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "cycler-0.12.1.dist-info/LICENSE",
+          "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+        }
+      ],
+      "license_summary": "BSD-3-Clause",
+      "upstream_release": "https://pypi.org/project/cycler/0.12.1/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "dearpygui",
+      "version": "2.3.1",
+      "project_urls": [],
+      "homepage": "https://github.com/hoffstadt/DearPyGui",
+      "license_files": [
+        {
+          "path": "dearpygui-2.3.1.dist-info/licenses/LICENSE",
+          "sha256": "eca2b531634078c6bf9ee0ada6881700c2f4005b757ad7e814d98ec35ba23af0"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/dearpygui/2.3.1/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "project_urls": [
+        "Documentation, https://openpyxl.pages.heptapod.net/et_xmlfile/",
+        "Source, https://foss.heptapod.net/openpyxl/et_xmlfile",
+        "Tracker, https://foss.heptapod.net/openpyxl/et_xmfile/-/issues"
+      ],
+      "homepage": "https://foss.heptapod.net/openpyxl/et_xmlfile",
+      "license_files": [],
+      "license_summary": "MIT; PSF terms for included ElementTree-derived code",
+      "upstream_release": "https://pypi.org/project/et_xmlfile/2.0.0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel",
+      "supplemental_source_licenses": {
+        "name": "et_xmlfile",
+        "version": "2.0.0",
+        "url": "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz",
+        "archive_sha256": "dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54",
+        "files": [
+          {
+            "file": "et_xmlfile-2.0.0-LICENCE.python.txt",
+            "source_path": "et_xmlfile-2.0.0/LICENCE.python",
+            "sha256": "4ccdaaebc0f44b83720ec0399bb7ab329adce067dd62f73c5535a2dc05628ab2"
+          },
+          {
+            "file": "et_xmlfile-2.0.0-LICENCE.rst.txt",
+            "source_path": "et_xmlfile-2.0.0/LICENCE.rst",
+            "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fonttools",
+      "version": "4.66.0",
+      "project_urls": [],
+      "homepage": "http://github.com/fonttools/fonttools",
+      "license_files": [
+        {
+          "path": "fonttools-4.66.0.dist-info/licenses/LICENSE",
+          "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+        },
+        {
+          "path": "fonttools-4.66.0.dist-info/licenses/LICENSE.external",
+          "sha256": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/fonttools/4.66.0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "project_urls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "kiwisolver-1.5.1.dist-info/licenses/LICENSE",
+          "sha256": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61"
+        }
+      ],
+      "license_summary": "BSD-3-Clause",
+      "upstream_release": "https://pypi.org/project/kiwisolver/1.5.1/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.9",
+      "project_urls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "matplotlib-3.10.9.dist-info/LICENSE",
+          "sha256": "dbb9ad7495a83b0f2f48c94b06e23020587d82f8d1492dcb717fb1ebc2f86c18"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+          "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+          "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+        }
+      ],
+      "license_summary": "Matplotlib license (PSF-derived); bundled component notices",
+      "upstream_release": "https://pypi.org/project/matplotlib/3.10.9/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "project_urls": [
+        "Homepage, https://networkx.org/",
+        "Bug Tracker, https://github.com/networkx/networkx/issues",
+        "Documentation, https://networkx.org/documentation/stable/",
+        "Source Code, https://github.com/networkx/networkx"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "networkx-3.6.1.dist-info/licenses/LICENSE.txt",
+          "sha256": "3cf7c3a179d817b23b8b8568211769fefdf93797d207d984b8b2fa24d0220b33"
+        }
+      ],
+      "license_summary": "BSD-3-Clause",
+      "upstream_release": "https://pypi.org/project/networkx/3.6.1/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "numpy-2.2.6.dist-info/LICENSE.txt",
+          "sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06"
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+        },
+        {
+          "path": "numpy/ma/LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+        }
+      ],
+      "license_summary": "BSD-3-Clause; bundled component notices",
+      "upstream_release": "https://pypi.org/project/numpy/2.2.6/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "project_urls": [
+        "Documentation, https://openpyxl.readthedocs.io/en/stable/",
+        "Source, https://foss.heptapod.net/openpyxl/openpyxl",
+        "Tracker, https://foss.heptapod.net/openpyxl/openpyxl/-/issues"
+      ],
+      "homepage": "https://openpyxl.readthedocs.io",
+      "license_files": [],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/openpyxl/3.1.5/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel",
+      "supplemental_source_licenses": {
+        "name": "openpyxl",
+        "version": "3.1.5",
+        "url": "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz",
+        "archive_sha256": "cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050",
+        "files": [
+          {
+            "file": "openpyxl-3.1.5-LICENCE.rst.txt",
+            "source_path": "openpyxl-3.1.5/LICENCE.rst",
+            "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e"
+          }
+        ]
+      }
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ],
+      "license_summary": "Apache-2.0 OR BSD-2-Clause",
+      "upstream_release": "https://pypi.org/project/packaging/26.3/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.5",
+      "project_urls": [
+        "homepage, https://pandas.pydata.org",
+        "documentation, https://pandas.pydata.org/docs/",
+        "repository, https://github.com/pandas-dev/pandas"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "pandas-3.0.5.dist-info/LICENSE",
+          "sha256": "5c1052e921e62d36ccda50a61585e9c0444b80c62f39b57c4f3f0d5fb62f5071"
+        }
+      ],
+      "license_summary": "BSD-3-Clause; bundled component notices",
+      "upstream_release": "https://pypi.org/project/pandas/3.0.5/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "project_urls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "pillow-12.3.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+        }
+      ],
+      "license_summary": "MIT-CMU; bundled component notices",
+      "upstream_release": "https://pypi.org/project/pillow/12.3.0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "project_urls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "pyparsing-3.3.3.dist-info/licenses/LICENSE",
+          "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/pyparsing/3.3.3/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "homepage": "https://github.com/dateutil/dateutil",
+      "license_files": [
+        {
+          "path": "python_dateutil-2.9.0.post0.dist-info/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ],
+      "license_summary": "Apache-2.0 OR BSD-3-Clause",
+      "upstream_release": "https://pypi.org/project/python-dateutil/2.9.0.post0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.1",
+      "project_urls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "scipy-1.17.1.dist-info/LICENSE.txt",
+          "sha256": "4daf14e37432e7026165979ecb7a39930707a3e89bef4876cfaf9dad36ed364a"
+        },
+        {
+          "path": "scipy/_lib/_uarray/LICENSE",
+          "sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4"
+        },
+        {
+          "path": "scipy/fft/_pocketfft/LICENSE.md",
+          "sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789"
+        },
+        {
+          "path": "scipy/integrate/LICENSE_DOP",
+          "sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357"
+        },
+        {
+          "path": "scipy/spatial/qhull_src/COPYING_QHULL.txt",
+          "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d"
+        }
+      ],
+      "license_summary": "BSD-3-Clause; bundled component notices",
+      "upstream_release": "https://pypi.org/project/scipy/1.17.1/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "simpy",
+      "version": "4.1.2",
+      "project_urls": [
+        "Homepage, https://simpy.readthedocs.io",
+        "Documentation, https://simpy.readthedocs.io",
+        "Source code, https://gitlab.com/team-simpy/simpy/"
+      ],
+      "homepage": null,
+      "license_files": [
+        {
+          "path": "simpy-4.1.2.dist-info/licenses/LICENSE.rst",
+          "sha256": "5f09a7bdf08f239271b15df1cbe2ba7f62649f8b497988274626f48638b84802"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/simpy/4.1.2/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "project_urls": [],
+      "homepage": "https://github.com/benjaminp/six",
+      "license_files": [
+        {
+          "path": "six-1.17.0.dist-info/LICENSE",
+          "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/six/1.17.0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    },
+    {
+      "name": "texttable",
+      "version": "1.7.0",
+      "project_urls": [],
+      "homepage": "https://github.com/foutaise/texttable/",
+      "license_files": [
+        {
+          "path": "texttable-1.7.0.dist-info/LICENSE",
+          "sha256": "4ba7bdab54504a3bc44eb33ecca873a26a63ab902822101a87bb46235da63594"
+        }
+      ],
+      "license_summary": "MIT",
+      "upstream_release": "https://pypi.org/project/texttable/1.7.0/",
+      "relationship": "separately installed runtime dependency; not vendored in amhslab wheel"
+    }
+  ],
+  "build_tool_license_sources": [
+    {
+      "name": "Cython",
+      "version": "3.3.0",
+      "url": "https://files.pythonhosted.org/packages/a9/d8/4981ef716ad0e3ff0d3ef383aefc6b03c4a88dee33b272bf8e0d833001ca/cython-3.3.0.tar.gz",
+      "archive_sha256": "eed0d93fbca7087f143b42c34b05a825849bdf17f101572c2105acfa49aa88b8",
+      "files": [
+        {
+          "file": "Cython-3.3.0-COPYING.txt.txt",
+          "source_path": "cython-3.3.0/COPYING.txt",
+          "sha256": "e1eb1c49a8508e8173dac30157e4a6439a44ad8846194746c424fbc3fc2b95d7"
+        },
+        {
+          "file": "Cython-3.3.0-LICENSE.txt.txt",
+          "source_path": "cython-3.3.0/LICENSE.txt",
+          "sha256": "9568a2b155e66ac3e0ba1fd80b52b827b9460e6cf6f233125e7cbca8e206ddc3"
+        }
+      ]
+    }
+  ],
+  "wheel": "amhslab-0.1.2-cp311-cp311-manylinux_2_34_x86_64.whl"
+}

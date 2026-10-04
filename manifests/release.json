@@ -1,0 +1,12 @@
+{
+  "status": "published-release",
+  "package_version": "0.1.2",
+  "wheel_filename": "amhslab-0.1.2-cp311-cp311-manylinux_2_34_x86_64.whl",
+  "wheel_sha256": "9f813d56636149fb4625f30e9e2876d7f21e9b0952f3f899f7fa8341506d5af4",
+  "platform": "Linux x86_64 / CPython 3.11",
+  "weights_sha256": "d57292fbfbe86da7110b1c1c96b0d21c7d36f40be3f22920ad264303de02cc93",
+  "full_matrix_rerun": false,
+  "code_license": "MIT",
+  "data_and_weights_license": "CC-BY-4.0",
+  "download_base_url": "https://github.com/AMHSTrafficLab/AMHSTrafficLab/releases/tag/v0.1.2"
+}

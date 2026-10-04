@@ -1,0 +1,22 @@
+{
+  "wheel_sha256": "9f813d56636149fb4625f30e9e2876d7f21e9b0952f3f899f7fa8341506d5af4",
+  "clean_install": "passed",
+  "entrypoints_passed": 6,
+  "public_contract_tests_passed": 224,
+  "gui_run_pause_resume_close": "passed",
+  "map_editor_render": "passed",
+  "direct_smoke_cases_passed": 2,
+  "direct_resume_cases_reused": 2,
+  "equivalent_runtime_evidence": {
+    "wheel_sha256": "99263826665c090ebe5173c2386d370d6390bcfc9365aadc6cb59a36c397da99",
+    "compiled_extensions_byte_identical": 85,
+    "public_api_and_runtime_config_byte_identical": true,
+    "main_matrix_smoke_cases_passed": 13,
+    "checkpoint_cases_matched": 49,
+    "checkpoint_resume_cases_reused": 49
+  },
+  "full_matrix_run": false,
+  "paper_result_comparison": false,
+  "manual_acceptance": "pending",
+  "published": false
+}

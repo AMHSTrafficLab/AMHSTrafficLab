@@ -1,0 +1,343 @@
+schema_version: 1
+name: routing_classical
+config_path: experiments/base_config.json
+fixed:
+  task_generation_method: from_to_table
+  task_dispatch_mode: batch
+  dispatch_interval: 5
+  max_safe_distance: 0.8
+  enable_logging: false
+  enable_event_record: false
+  collect_periodic_stats: true
+  strict_map_validation: true
+  enable_area_admission: false
+  water_level_areas: []
+  routing_dispatch_cost_mode: static_dijkstra
+  routing_performance_enabled: true
+  routing_performance_sample_limit: 50000
+matrix:
+  product:
+  - scenario
+  - routing
+  axes:
+    scenario:
+    - id: s100_off
+      labels:
+        scene: S100
+        oht: 100
+        load_tph: 2400
+        area_policy: false
+      params:
+        filepath: experiments/maps/small_100.xlsx
+        oht_nums: 100
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: s100_hold
+      labels:
+        scene: S100
+        oht: 100
+        load_tph: 2400
+        area_policy: hold
+      params:
+        filepath: experiments/maps/small_100.xlsx
+        oht_nums: 100
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/small_100_areas.xlsx
+    - id: s100_rebalance
+      labels:
+        scene: S100
+        oht: 100
+        load_tph: 2400
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/small_100.xlsx
+        oht_nums: 100
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/small_100_areas.xlsx
+    - id: s150_off
+      labels:
+        scene: S150
+        oht: 150
+        load_tph: 3120
+        area_policy: false
+      params:
+        filepath: experiments/maps/small_150.xlsx
+        oht_nums: 150
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: s150_hold
+      labels:
+        scene: S150
+        oht: 150
+        load_tph: 3120
+        area_policy: hold
+      params:
+        filepath: experiments/maps/small_150.xlsx
+        oht_nums: 150
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/small_150_areas.xlsx
+    - id: s150_rebalance
+      labels:
+        scene: S150
+        oht: 150
+        load_tph: 3120
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/small_150.xlsx
+        oht_nums: 150
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/small_150_areas.xlsx
+    - id: m175_off
+      labels:
+        scene: M175
+        oht: 175
+        load_tph: 4850
+        area_policy: false
+      params:
+        filepath: experiments/maps/medium_175.xlsx
+        oht_nums: 175
+        loop_length_bound: 45
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: m175_hold
+      labels:
+        scene: M175
+        oht: 175
+        load_tph: 4850
+        area_policy: hold
+      params:
+        filepath: experiments/maps/medium_175.xlsx
+        oht_nums: 175
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/medium_175_areas.xlsx
+    - id: m175_rebalance
+      labels:
+        scene: M175
+        oht: 175
+        load_tph: 4850
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/medium_175.xlsx
+        oht_nums: 175
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/medium_175_areas.xlsx
+    - id: m200_off
+      labels:
+        scene: M200
+        oht: 200
+        load_tph: 5350
+        area_policy: false
+      params:
+        filepath: experiments/maps/medium_200.xlsx
+        oht_nums: 200
+        loop_length_bound: 45
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: m200_hold
+      labels:
+        scene: M200
+        oht: 200
+        load_tph: 5350
+        area_policy: hold
+      params:
+        filepath: experiments/maps/medium_200.xlsx
+        oht_nums: 200
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/medium_200_areas.xlsx
+    - id: m200_rebalance
+      labels:
+        scene: M200
+        oht: 200
+        load_tph: 5350
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/medium_200.xlsx
+        oht_nums: 200
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/medium_200_areas.xlsx
+    - id: m225_off
+      labels:
+        scene: M225
+        oht: 225
+        load_tph: 6100
+        area_policy: false
+      params:
+        filepath: experiments/maps/medium_225.xlsx
+        oht_nums: 225
+        loop_length_bound: 45
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: m225_hold
+      labels:
+        scene: M225
+        oht: 225
+        load_tph: 6100
+        area_policy: hold
+      params:
+        filepath: experiments/maps/medium_225.xlsx
+        oht_nums: 225
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/medium_225_areas.xlsx
+    - id: m225_rebalance
+      labels:
+        scene: M225
+        oht: 225
+        load_tph: 6100
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/medium_225.xlsx
+        oht_nums: 225
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/medium_225_areas.xlsx
+    - id: l275_off
+      labels:
+        scene: L275
+        oht: 275
+        load_tph: 6850
+        area_policy: false
+      params:
+        filepath: experiments/maps/large_275.xlsx
+        oht_nums: 275
+        loop_length_bound: 45
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: l275_hold
+      labels:
+        scene: L275
+        oht: 275
+        load_tph: 6850
+        area_policy: hold
+      params:
+        filepath: experiments/maps/large_275.xlsx
+        oht_nums: 275
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/large_275_areas.xlsx
+    - id: l275_rebalance
+      labels:
+        scene: L275
+        oht: 275
+        load_tph: 6850
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/large_275.xlsx
+        oht_nums: 275
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/large_275_areas.xlsx
+    - id: l300_off
+      labels:
+        scene: L300
+        oht: 300
+        load_tph: 7350
+        area_policy: false
+      params:
+        filepath: experiments/maps/large_300.xlsx
+        oht_nums: 300
+        loop_length_bound: 45
+        area_control_policy: 'off'
+        water_level_area_filepath: null
+    - id: l300_hold
+      labels:
+        scene: L300
+        oht: 300
+        load_tph: 7350
+        area_policy: hold
+      params:
+        filepath: experiments/maps/large_300.xlsx
+        oht_nums: 300
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_hold
+        water_level_area_filepath: experiments/areas/large_300_areas.xlsx
+    - id: l300_rebalance
+      labels:
+        scene: L300
+        oht: 300
+        load_tph: 7350
+        area_policy: rebalance
+      params:
+        filepath: experiments/maps/large_300.xlsx
+        oht_nums: 300
+        loop_length_bound: 45
+        area_control_policy: fixed_water_level_rebalance
+        water_level_area_filepath: experiments/areas/large_300_areas.xlsx
+    routing:
+    - id: d
+      labels:
+        routing: D
+        category: static
+      params:
+        method: D
+        routing_options: {}
+    - id: kd
+      labels:
+        routing: KD
+        category: static_multipath
+      params:
+        method: KD
+        routing_options:
+          ksp_k: 3
+          ksp_max_stretch: 1.25
+          ksp_selection: agent_hash
+    - id: cd
+      labels:
+        routing: CD
+        category: live_congestion
+      params:
+        method: CD
+        cwd_replan_at_splits: false
+        routing_options: {}
+    - id: pfd
+      labels:
+        routing: PFD
+        category: demand_aware
+      params:
+        method: PFD
+        routing_options:
+          pfd_cache_dir: outputs/cache/pfd
+          pfd_points_per_macro_edge: 4
+          pfd_length_weight: 1.0
+          pfd_flow_weight: 20.0
+    - id: edr
+      labels:
+        routing: EDR
+        category: online_adaptive
+      params:
+        method: EDR
+        routing_options:
+          edr_smoothing_lambda: 0.1
+          edr_table_update_interval_s: 1.0
+    - id: cbr
+      labels:
+        routing: CBR
+        category: online_adaptive
+      params:
+        method: CBR
+        routing_options:
+          cbr_window_seconds: 600.0
+          cbr_distance_share: 0.825
+          cbr_congestion_share: 0.175
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+run:
+  until: 20000
+  speed: 600
+  workers: 32
+  export_output: false
+  loop_cache_mode: isolated
+  output_dir: outputs/routing_classical

@@ -1,0 +1,33 @@
+{
+  "seed": 0,
+  "method": "SCD",
+  "cruising_method": "None",
+  "driveaway_method": "split_evade",
+  "tau": 0.3,
+  "alpha": 0.1,
+  "oht_nums": 150,
+  "default_oht_length": 1.0,
+  "filepath": "experiments/maps/small_150.xlsx",
+  "scale": 0.001,
+  "task_dispatch_mode": "batch",
+  "dispatch_interval": 5,
+  "task_generation_method": "from_to_table",
+  "enable_logging": false,
+  "enable_num_lead": false,
+  "draw_figure_step": 10000,
+  "max_safe_distance": 0.5,
+  "merge_stop_distance": 2.0,
+  "merge_release_distance": 1.0,
+  "intra_bay_ratio": 0.7,
+  "initialize_oht_on_path": true,
+  "enable_event_record": false,
+  "collect_periodic_stats": true,
+  "loop_length_bound": 200,
+  "merge_grant_selector": "alternate_directions",
+  "routing_options": {
+    "pfd_cache_dir": "outputs/cache/pfd",
+    "pfd_points_per_macro_edge": 4,
+    "pfd_length_weight": 1.0,
+    "pfd_flow_weight": 20.0
+  }
+}

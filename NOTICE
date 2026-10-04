@@ -1,0 +1,68 @@
+# AMHSTrafficLab attribution and dependency notices
+
+AMHSTrafficLab's own code is declared under the MIT License in LICENSE.
+Copyright (c) 2026 AMHSTrafficLab Contributors. Third-party components retain
+their own copyrights and licenses; the project license does not relicense them.
+
+These notices accompany the 0.1.1 Linux CPython 3.11 candidate,
+SHA-256 `9f813d56636149fb4625f30e9e2876d7f21e9b0952f3f899f7fa8341506d5af4`.
+The candidate contains the project's LICENSE. These additional notices are
+release-directory sidecars; they have not been inserted into or changed that wheel.
+
+## Runtime inventory
+
+Dependencies are installed separately by pip. Their code and native libraries
+are not vendored in the AMHSTrafficLab wheel. Their own wheels may bundle additional
+libraries, fonts or data under separate terms. Preserve their shipped notices if
+redistributing those artifacts, a populated environment or a container image.
+
+| Distribution | Validated version | License summary |
+| --- | --- | --- |
+| contourpy | 1.3.3 | BSD-3-Clause |
+| cycler | 0.12.1 | BSD-3-Clause |
+| dearpygui | 2.3.1 | MIT |
+| et_xmlfile | 2.0.0 | MIT; PSF terms for included ElementTree-derived code |
+| fonttools | 4.66.0 | MIT |
+| kiwisolver | 1.5.1 | BSD-3-Clause |
+| matplotlib | 3.10.9 | Matplotlib license (PSF-derived); bundled component notices |
+| networkx | 3.6.1 | BSD-3-Clause |
+| numpy | 2.2.6 | BSD-3-Clause; bundled component notices |
+| openpyxl | 3.1.5 | MIT |
+| packaging | 26.3 | Apache-2.0 OR BSD-2-Clause |
+| pandas | 3.0.5 | BSD-3-Clause; bundled component notices |
+| pillow | 12.3.0 | MIT-CMU; bundled component notices |
+| pyparsing | 3.3.3 | MIT |
+| python-dateutil | 2.9.0.post0 | Apache-2.0 OR BSD-3-Clause |
+| scipy | 1.17.1 | BSD-3-Clause; bundled component notices |
+| simpy | 4.1.2 | MIT |
+| six | 1.17.0 | MIT |
+| texttable | 1.7.0 | MIT |
+
+NOTICE.third-party-licenses.txt preserves license texts from installed dependency
+files, including the subcomponent notices those files contain. Missing openpyxl
+and et_xmlfile license files were obtained from their exact upstream source
+releases, with archive and text hashes recorded in NOTICE.dependencies.json.
+That inventory covers the listed installed runtime distributions, not every native
+subcomponent. Upstream copyright statements in the collected texts remain intact.
+
+## Build and system components
+
+Cython 3.3.0 is a build tool, not an installed runtime dependency. Its upstream
+COPYING.txt explicitly states that embedded compiler output snippets do not impose
+license restrictions on the output. Its COPYING and Apache-2.0 license texts are
+included for traceability; this does not declare the AMHSTrafficLab core Apache-2.0.
+
+CPython, glibc, the display/OpenGL stack and libstdc++ are environment components,
+not included in this wheel. The validation environment used Ubuntu's
+libstdc++6 12.3.0-1ubuntu1~22.04.3 (GCC runtime licensing with applicable exceptions).
+Upstream terms: https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html
+The runtime supplement is not part of this release directory or wheel. Anyone
+redistributing a runtime or container must also retain its package-specific
+copyright, license and applicable source-delivery materials.
+
+## Reproduction and data materials
+
+PyYAML, CPU PyTorch and their additional dependencies are installed separately.
+Their versions and original notices are recorded in NOTICE.reproduction-dependencies.json
+and licenses/reproduction/. Maps, scene configurations and checkpoints use CC BY 4.0;
+see LICENSE-DATA.md. Third-party licenses are unchanged.
